@@ -1,0 +1,11 @@
+{
+  "esqueleto":{
+    "codigo fuente":"archivos java",
+    "descripción larga":"archivo html",
+    "guia de trabajo":"archivo html",
+    "modelo de clases":"archivo .xmi",
+    "nombre":"texto",
+    "plantilla de calificación":"archivo CSV",
+    "requerimientos funcionales": "archivo html"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Ejercicio": {
+    "descripción":{
+      "descripción larga":"html",
+      "pantallazo de la interfaz":"archivo jpg o png"
+    },
+    "documentos" : {
+      "modelos":{
+        "diagrama del mundo": "archivo jpg o png",
+        "diagrama de la interfaz": "archivo jpg o png",
+        "diagrama de Pruebas": "archivo jpg o png"
+      },
+      "Requerimientos funcionales":"html",
+      "Requerimientos no funcionales":"?",
+      "consideraciones de diseño":"?"
+    },
+    "guia y demo":{
+      "guia de trabajo" : "archivo html",
+      "demo":"archivo mp4 o swf"
+    },
+    "Código":{
+      "esqueleto":"archivo .zip"
+    }
+  }
+}
