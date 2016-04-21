@@ -56,6 +56,9 @@ sitioCupi2.config(['$stateProvider', '$urlRouterProvider', function ($stateProvi
             views: {
                 'content@':{
                     templateUrl: 'views/documentos/modelos.html'
+                },
+                'detail@app.modelos':{
+                    templateUrl: 'views/documentos/diagrama-mundo.html'
                 }
             }
         })
@@ -83,26 +86,26 @@ sitioCupi2.config(['$stateProvider', '$urlRouterProvider', function ($stateProvi
                 }
             }
         })
-        .state('app.documentos.modelos.diagrama-mundo',{
+        .state('app.modelos.diagrama-mundo',{
             url:'/diagrama-mundo',
             views: {
-                'detail@app.documentos.modelos':{
+                'detail@app.modelos':{
                     templateUrl: 'views/documentos/diagrama-mundo.html'
                 }
             }
         })
-        .state('app.documentos.modelos.diagrama-interfaz',{
+        .state('app.modelos.diagrama-interfaz',{
             url:'/diagrama-interfaz',
             views: {
-                'detail@app.documentos.modelos':{
+                'detail@app.modelos':{
                     templateUrl: 'views/documentos/diagrama-interfaz.html'
                 }
             }
         })
-        .state('app.documentos.modelos.diagrama-pruebos',{
+        .state('app.modelos.diagrama-pruebos',{
             url:'/diagrama-pruebas',
             views: {
-                'detail@app.documentos.modelos':{
+                'detail@app.modelos':{
                     templateUrl: 'views/documentos/diagrama-pruebas.html'
                 }
             }
