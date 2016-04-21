@@ -51,34 +51,34 @@ sitioCupi2.config(['$stateProvider', '$urlRouterProvider', function ($stateProvi
                 }
             }
         })
-        .state('app.documentos.modelos',{
+        .state('app.modelos',{
             url:'modelos',
             views: {
-                'detail@app.documentos':{
+                'content@':{
                     templateUrl: 'views/documentos/modelos.html'
                 }
             }
         })
-        .state('app.documentos.requerimientos-funcionales',{
+        .state('app.requerimientos-funcionales',{
             url:'/requerimientos-funcionales',
             views: {
-                'detail@app.documentos':{
+                'content@':{
                     templateUrl: 'assets/specs/RequerimientosFuncionales.html'
                 }
             }
         })
-        .state('app.documentos.requerimientos-no-funcionales',{
+        .state('app.requerimientos-no-funcionales',{
             url:'/requerimientos-no-funcionales',
             views: {
-                'detail@app.documentos':{
+                'content@':{
                     templateUrl: 'views/documentos/requerimientos-no-funcionales.html'
                 }
             }
         })
-        .state('app.documentos.consideraciones',{
+        .state('app.consideraciones',{
             url:'/consideraciones',
             views: {
-                'detail@app.documentos':{
+                'content@':{
                     templateUrl: 'views/documentos/consideraciones.html'
                 }
             }
