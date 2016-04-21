@@ -51,58 +51,61 @@ sitioCupi2.config(['$stateProvider', '$urlRouterProvider', function ($stateProvi
                 }
             }
         })
-        .state('app.documentos.modelos',{
+        .state('app.modelos',{
             url:'modelos',
             views: {
-                'detail@app.documentos':{
+                'content@':{
                     templateUrl: 'views/documentos/modelos.html'
-                }
-            }
-        })
-        .state('app.documentos.requerimientos-funcionales',{
-            url:'/requerimientos-funcionales',
-            views: {
-                'detail@app.documentos':{
-                    templateUrl: 'assets/specs/RequerimientosFuncionales.html'
-                }
-            }
-        })
-        .state('app.documentos.requerimientos-no-funcionales',{
-            url:'/requerimientos-no-funcionales',
-            views: {
-                'detail@app.documentos':{
-                    templateUrl: 'views/documentos/requerimientos-no-funcionales.html'
-                }
-            }
-        })
-        .state('app.documentos.consideraciones',{
-            url:'/consideraciones',
-            views: {
-                'detail@app.documentos':{
-                    templateUrl: 'views/documentos/consideraciones.html'
-                }
-            }
-        })
-        .state('app.documentos.modelos.diagrama-mundo',{
-            url:'/diagrama-mundo',
-            views: {
-                'detail@app.documentos.modelos':{
+                },
+                'detail@app.modelos':{
                     templateUrl: 'views/documentos/diagrama-mundo.html'
                 }
             }
         })
-        .state('app.documentos.modelos.diagrama-interfaz',{
+        .state('app.requerimientos-funcionales',{
+            url:'/requerimientos-funcionales',
+            views: {
+                'content@':{
+                    templateUrl: 'assets/specs/RequerimientosFuncionales.html'
+                }
+            }
+        })
+        .state('app.requerimientos-no-funcionales',{
+            url:'/requerimientos-no-funcionales',
+            views: {
+                'content@':{
+                    templateUrl: 'views/documentos/requerimientos-no-funcionales.html'
+                }
+            }
+        })
+        .state('app.consideraciones',{
+            url:'/consideraciones',
+            views: {
+                'content@':{
+                    templateUrl: 'views/documentos/consideraciones.html'
+                }
+            }
+        })
+        .state('app.modelos.diagrama-mundo',{
+            url:'/diagrama-mundo',
+            views: {
+                'detail@app.modelos':{
+                    templateUrl: 'views/documentos/diagrama-mundo.html'
+                }
+            }
+        })
+        .state('app.modelos.diagrama-interfaz',{
             url:'/diagrama-interfaz',
             views: {
-                'detail@app.documentos.modelos':{
+                'detail@app.modelos':{
                     templateUrl: 'views/documentos/diagrama-interfaz.html'
                 }
             }
         })
-        .state('app.documentos.modelos.diagrama-pruebos',{
+        .state('app.modelos.diagrama-pruebos',{
             url:'/diagrama-pruebas',
             views: {
-                'detail@app.documentos.modelos':{
+                'detail@app.modelos':{
                     templateUrl: 'views/documentos/diagrama-pruebas.html'
                 }
             }

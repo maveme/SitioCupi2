@@ -6,19 +6,21 @@
     <nav>
         <ul class="nav nav-pills nav-justified">
             <li ui-sref-active="active">
-                <!--<a href="#/descripcion">Descripción</a>-->
                 <a ui-sref=".descripcion">Descripción</a>
             </li>
-            <li ui-sref-active="active">
-                <!--<a href="#/documentos">Documentos</a>-->
-                <a ui-sref=".documentos">Documentos</a>
+            <li ui-sref-active="active" class="dropdown">
+                <a ui-sref=".documentos" lass="dropdown-toggle" data-toggle="dropdown"> Documentos <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a ui-sref=".modelos">Diagramas</a></li>
+                    <li><a ui-sref=".requerimientos-funcionales">Requerimientos Funcionales</a></li>
+                    <li><a ui-sref=".requerimientos-no-funcionales">Requerimientos no Funcionales</a></li>
+                    <li><a ui-sref=".consideraciones">Consideraciones de Diseño</a></li>
+                </ul>
             </li>
             <li ui-sref-active="active">
-                <!--<a href="#/guia-demo">Guía y Demo</a>-->
                 <a ui-sref=".guia-demo">Guía y Demo</a>
             </li>
             <li ui-sref-active="active">
-                <!--<a href="#/codigo">Código</a>-->
                 <a ui-sref=".codigo">Código</a>
             </li>
         </ul>
